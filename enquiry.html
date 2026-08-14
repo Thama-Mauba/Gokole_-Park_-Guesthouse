@@ -1,1 +1,50 @@
 enquiry.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Enquiry | Gokole Park and Guesthouse</title>
+</head>
+<body>
+    <header>
+        <h1>Gokole Park and Guesthouse</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Booking & Event Enquiry Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="service">Enquiry Type:</label><br>
+            <select id="service" name="service">
+                <option value="room">Room Reservation</option>
+                <option value="event">Event Hosting</option>
+                <option value="general">General Question</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gokole Park and Guesthouse. All rights reserved.</p>
+    </footer>
+</body>
+</html>
